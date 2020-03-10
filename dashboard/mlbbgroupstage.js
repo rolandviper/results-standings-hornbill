@@ -1,15 +1,15 @@
 function playA() {
-	nodecg.sendMessage('mlbbgroupAshow');
+	nodecg.sendMessage('mlbbgroup1show');
 }
 
 function stopA() {
-	nodecg.sendMessage('mlbbgroupAstop');
+	nodecg.sendMessage('mlbbgroup1stop');
 }
 
 function playB() {
-	nodecg.sendMessage('mlbbgroupBshow');
+	nodecg.sendMessage('mlbbgroup2show');
 }
 
 function stopB() {
-	nodecg.sendMessage('mlbbgroupBstop');
+	nodecg.sendMessage('mlbbgroup2stop');
 }
