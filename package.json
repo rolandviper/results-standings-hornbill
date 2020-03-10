@@ -1,0 +1,46 @@
+{
+	"name": "results-standings-hornbill",
+	"version": "0.0.0",
+	"description": "Results and standings for hornbill esports cup games",
+	"homepage": "https://www.facebook.com/hornbillesports/",
+	"author": {
+		"name": "Roland",
+		"email": "rolandviper@gmail.com",
+		"url": ""
+	},
+	"files": [
+		"dashboard",
+		"graphics",
+		"extension.js",
+		"extension"
+	],
+	"keywords": [
+		"",
+		"nodecg-bundle"
+	],
+	"nodecg": {
+		"compatibleRange": "^1.1.1",
+		"dashboardPanels": [
+			{
+				"name": "MLBBGroupStage",
+				"title": "MLBBGroupStage",
+				"width": 2,
+				"file": "mlbbgroupstage.html",
+				"headerColor": "#525F78"
+			}
+		],
+		"graphics": [
+			{
+				"file": "mlbbgroupstaging.html",
+				"width": 1920,
+				"height": 1080
+			}
+		]
+	},
+	"repository": "https://github.com/nodecg/nodecg.git",
+	"license": "Apache-2.0",
+	"dependencies": {
+		"gsap": "^3.2.4",
+		"tabletop": "^1.6.2"
+	}
+}
