@@ -19,6 +19,13 @@
 				"width": 2,
 				"file": "mlbbgroupstage.html",
 				"headerColor": "#525F78"
+			},
+			{
+				"name": "D2GroupStage",
+				"title": "D2GroupStage",
+				"width": 2,
+				"file": "d2groupstage.html",
+				"headerColor": "#525F78"
 			}
 		],
 		"graphics": [
@@ -29,6 +36,11 @@
 			},
 			{
 				"file": "mlbbgroupstaging2.html",
+				"width": 1920,
+				"height": 1080
+			},
+			{
+				"file": "d2groupstaging.html",
 				"width": 1920,
 				"height": 1080
 			}
