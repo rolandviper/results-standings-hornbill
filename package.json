@@ -33,6 +33,13 @@
 				"width": 2,
 				"file": "mlbbplayoffs.html",
 				"headerColor": "#525F78"
+			},
+			{
+				"name": "D2Playoffs",
+				"title": "D2Playoffs",
+				"width": 2,
+				"file": "d2playoffs.html",
+				"headerColor": "#525F78"
 			}
 		],
 		"graphics": [
@@ -53,6 +60,11 @@
 			},
 			{
 				"file": "mlbbplayoffing.html",
+				"width": 1920,
+				"height": 1080
+			},
+			{
+				"file": "d2playoffing.html",
 				"width": 1920,
 				"height": 1080
 			}
