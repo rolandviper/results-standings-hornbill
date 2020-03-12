@@ -74,67 +74,68 @@ const container = document.getElementsByClassName('container'),
 	bottomW = document.getElementsByClassName('bottomW');
 
 var testURL =
-	'https://docs.google.com/spreadsheet/pub?hl=en_US&hl=en_US&key=0AmYzu_s7QHsmdDNZUzRlYldnWTZCLXdrMXlYQzVxSFE&output=html';
+	// 'https://docs.google.com/spreadsheet/pub?hl=en_US&hl=en_US&key=0AmYzu_s7QHsmdDNZUzRlYldnWTZCLXdrMXlYQzVxSFE&output=html';
+	'https://docs.google.com/spreadsheets/d/1cuwm6JcQGsAPPnqG16eQp_xCcvYVt0MtSF3uBuYvuLc/edit?usp=sharing';
 
 function onLoad(data, tabletop) {
-	console.log(data);
+	// console.log(data);
 
 	group1.innerHTML = 'Group A';
 	group2.innerHTML = 'Group B';
 	group3.innerHTML = 'Group C';
 	group4.innerHTML = 'Group D';
 
-	team1.innerHTML = data[0].Name;
-	team2.innerHTML = 'Team 2';
-	team3.innerHTML = 'Team 3';
-	team4.innerHTML = 'team 4';
-	team5.innerHTML = 'TBD';
-	team6.innerHTML = 'TBD';
-	team7.innerHTML = 'TBD';
-	team8.innerHTML = 'TBD';
-	team9.innerHTML = 'TBD';
-	team10.innerHTML = 'TBD';
-	team11.innerHTML = 'TBD';
-	team12.innerHTML = 'TBD';
+	team1.innerHTML = data[0].GA;
+	team2.innerHTML = data[1].GA;
+	team3.innerHTML = data[2].GA;
+	team4.innerHTML = data[3].GA;
+	team5.innerHTML = data[4].GA;
+	team6.innerHTML = data[5].GA;
+	team7.innerHTML = data[6].GA;
+	team8.innerHTML = data[7].GA;
+	team9.innerHTML = data[8].GA;
+	team10.innerHTML = data[9].GA;
+	team11.innerHTML = data[10].GA;
+	team12.innerHTML = data[11].GA;
 
-	team13.innerHTML = 'team 5';
-	team14.innerHTML = 'team 6';
-	team15.innerHTML = 'team 7';
-	team16.innerHTML = 'team 8';
-	team17.innerHTML = 'tbd';
-	team18.innerHTML = 'tbd';
-	team19.innerHTML = 'tbd';
-	team20.innerHTML = 'tbd';
-	team21.innerHTML = 'tbd';
-	team22.innerHTML = 'tbd';
-	team23.innerHTML = 'tbd';
-	team24.innerHTML = 'tbd';
+	team13.innerHTML = data[0].GB;
+	team14.innerHTML = data[1].GB;
+	team15.innerHTML = data[2].GB;
+	team16.innerHTML = data[3].GB;
+	team17.innerHTML = data[4].GB;
+	team18.innerHTML = data[5].GB;
+	team19.innerHTML = data[6].GB;
+	team20.innerHTML = data[7].GB;
+	team21.innerHTML = data[8].GB;
+	team22.innerHTML = data[9].GB;
+	team23.innerHTML = data[10].GB;
+	team24.innerHTML = data[11].GB;
 
-	team25.innerHTML = 'team 9';
-	team26.innerHTML = 'team 10';
-	team27.innerHTML = 'team 11';
-	team28.innerHTML = 'team 12';
-	team29.innerHTML = 'tbd';
-	team30.innerHTML = 'tbd';
-	team31.innerHTML = 'tbd';
-	team32.innerHTML = 'tbd';
-	team33.innerHTML = 'tbd';
-	team34.innerHTML = 'tbd';
-	team35.innerHTML = 'tbd';
-	team36.innerHTML = 'tbd';
+	team25.innerHTML = data[0].GC;
+	team26.innerHTML = data[1].GC;
+	team27.innerHTML = data[2].GC;
+	team28.innerHTML = data[3].GC;
+	team29.innerHTML = data[4].GC;
+	team30.innerHTML = data[5].GC;
+	team31.innerHTML = data[6].GC;
+	team32.innerHTML = data[7].GC;
+	team33.innerHTML = data[8].GC;
+	team34.innerHTML = data[9].GC;
+	team35.innerHTML = data[10].GC;
+	team36.innerHTML = data[11].GC;
 
-	team37.innerHTML = 'team 13';
-	team38.innerHTML = 'team 14';
-	team39.innerHTML = 'team 15';
-	team40.innerHTML = 'team 16';
-	team41.innerHTML = 'tbd';
-	team42.innerHTML = 'tbd';
-	team43.innerHTML = 'tbd';
-	team44.innerHTML = 'tbd';
-	team45.innerHTML = 'tbd';
-	team46.innerHTML = 'tbd';
-	team47.innerHTML = 'tbd';
-	team48.innerHTML = 'tbd';
+	team37.innerHTML = data[0].GD;
+	team38.innerHTML = data[1].GD;
+	team39.innerHTML = data[2].GD;
+	team40.innerHTML = data[3].GD;
+	team41.innerHTML = data[4].GD;
+	team42.innerHTML = data[5].GD;
+	team43.innerHTML = data[6].GD;
+	team44.innerHTML = data[7].GD;
+	team45.innerHTML = data[8].GD;
+	team46.innerHTML = data[9].GD;
+	team47.innerHTML = data[10].GD;
+	team48.innerHTML = data[11].GD;
 }
 
 var options = {
@@ -146,6 +147,8 @@ var options = {
 Tabletop.init(options);
 
 nodecg.listenFor('mlbbgroup1show', () => {
+	Tabletop.init(options);
+
 	tl.from([ container ], 1, { width: '50%' });
 	tl.to([ container ], 1, { opacity: 1 }, '-=1');
 

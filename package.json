@@ -26,6 +26,13 @@
 				"width": 2,
 				"file": "d2groupstage.html",
 				"headerColor": "#525F78"
+			},
+			{
+				"name": "MLBBPlayoffs",
+				"title": "MLBBPlayoffs",
+				"width": 2,
+				"file": "mlbbplayoffs.html",
+				"headerColor": "#525F78"
 			}
 		],
 		"graphics": [
@@ -41,6 +48,11 @@
 			},
 			{
 				"file": "d2groupstaging.html",
+				"width": 1920,
+				"height": 1080
+			},
+			{
+				"file": "mlbbplayoffing.html",
 				"width": 1920,
 				"height": 1080
 			}
