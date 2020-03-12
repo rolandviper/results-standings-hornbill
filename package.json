@@ -14,32 +14,18 @@
 		"compatibleRange": "^1.1.1",
 		"dashboardPanels": [
 			{
-				"name": "MLBBGroupStage",
-				"title": "MLBBGroupStage",
+				"name": "MLBBRESULTS",
+				"title": "MLBBRESULTS",
 				"width": 2,
 				"file": "mlbbgroupstage.html",
-				"headerColor": "#525F78"
+				"headerColor": "#2e76ff"
 			},
 			{
-				"name": "D2GroupStage",
-				"title": "D2GroupStage",
+				"name": "D2RESULTS",
+				"title": "D2RESULTS",
 				"width": 2,
 				"file": "d2groupstage.html",
-				"headerColor": "#525F78"
-			},
-			{
-				"name": "MLBBPlayoffs",
-				"title": "MLBBPlayoffs",
-				"width": 2,
-				"file": "mlbbplayoffs.html",
-				"headerColor": "#525F78"
-			},
-			{
-				"name": "D2Playoffs",
-				"title": "D2Playoffs",
-				"width": 2,
-				"file": "d2playoffs.html",
-				"headerColor": "#525F78"
+				"headerColor": "#a61d1d"
 			}
 		],
 		"graphics": [

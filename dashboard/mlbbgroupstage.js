@@ -13,3 +13,11 @@ function playB() {
 function stopB() {
 	nodecg.sendMessage('mlbbgroup2stop');
 }
+
+function playC() {
+	nodecg.sendMessage('mlbbplayoffshow');
+}
+
+function stopC() {
+	nodecg.sendMessage('mlbbplayoffstop');
+}
