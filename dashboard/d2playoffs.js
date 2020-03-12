@@ -3,5 +3,5 @@ function playA() {
 }
 
 function stopA() {
-	nodecg.sendMessage('d2playoffshow');
+	nodecg.sendMessage('d2playoffstop');
 }

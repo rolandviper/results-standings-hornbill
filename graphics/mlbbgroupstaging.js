@@ -169,4 +169,6 @@ nodecg.listenFor('mlbbgroup1stop', () => {
 	tl.call(() => {});
 
 	tl.set([ groupname, container ], { width: '' });
+
+	Tabletop.init(options);
 });

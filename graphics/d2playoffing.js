@@ -84,61 +84,61 @@ var testURL =
 	'https://docs.google.com/spreadsheets/d/1ZPEVH6Gikg8alHhM090U9WpljUI0AHOUX4pRiSlNRsg/edit?usp=sharing'; //D2 scoresheet
 
 function onLoad(data, tabletop) {
-	// console.log(data);
+	console.log(data);
 
-	game.innerHTML = 'Mobile Legends Playoff stage';
+	game.innerHTML = 'Dota2 Playoff stage';
 
 	//round32
-	team1.innerHTML = data[0].S32 + ' ' + data[0].R32;
-	team2.innerHTML = data[1].S32 + ' ' + data[1].R32;
-	team3.innerHTML = data[2].S32 + ' ' + data[2].R32;
-	team4.innerHTML = data[3].S32 + ' ' + data[3].R32;
-	team5.innerHTML = data[4].S32 + ' ' + data[4].R32;
-	team6.innerHTML = data[5].S32 + ' ' + data[5].R32;
-	team7.innerHTML = data[6].S32 + ' ' + data[6].R32;
-	team8.innerHTML = data[7].S32 + ' ' + data[7].R32;
-	team9.innerHTML = data[8].S32 + ' ' + data[8].R32;
-	team10.innerHTML = data[9].S32 + ' ' + data[9].R32;
-	team11.innerHTML = data[10].S32 + ' ' + data[10].R32;
-	team12.innerHTML = data[11].S32 + ' ' + data[11].R32;
-	team13.innerHTML = data[12].S32 + ' ' + data[12].R32;
-	team14.innerHTML = data[13].S32 + ' ' + data[13].R32;
-	team15.innerHTML = data[14].S32 + ' ' + data[14].R32;
-	team16.innerHTML = data[15].S32 + ' ' + data[15].R32;
-	team17.innerHTML = data[16].S32 + ' ' + data[16].R32;
-	team18.innerHTML = data[17].S32 + ' ' + data[17].R32;
-	team19.innerHTML = data[18].S32 + ' ' + data[18].R32;
-	team20.innerHTML = data[19].S32 + ' ' + data[19].R32;
-	team21.innerHTML = data[20].S32 + ' ' + data[20].R32;
-	team22.innerHTML = data[21].S32 + ' ' + data[21].R32;
-	team23.innerHTML = data[22].S32 + ' ' + data[22].R32;
-	team24.innerHTML = data[23].S32 + ' ' + data[23].R32;
-	team25.innerHTML = data[24].S32 + ' ' + data[24].R32;
-	team26.innerHTML = data[25].S32 + ' ' + data[25].R32;
-	team27.innerHTML = data[26].S32 + ' ' + data[26].R32;
-	team28.innerHTML = data[27].S32 + ' ' + data[27].R32;
-	team29.innerHTML = data[28].S32 + ' ' + data[28].R32;
-	team30.innerHTML = data[29].S32 + ' ' + data[29].R32;
-	team31.innerHTML = data[30].S32 + ' ' + data[30].R32;
-	team32.innerHTML = data[31].S32 + ' ' + data[31].R32;
+	// team1.innerHTML = data[0].S32 + ' ' + data[0].R32;
+	// team2.innerHTML = data[1].S32 + ' ' + data[1].R32;
+	// team3.innerHTML = data[2].S32 + ' ' + data[2].R32;
+	// team4.innerHTML = data[3].S32 + ' ' + data[3].R32;
+	// team5.innerHTML = data[4].S32 + ' ' + data[4].R32;
+	// team6.innerHTML = data[5].S32 + ' ' + data[5].R32;
+	// team7.innerHTML = data[6].S32 + ' ' + data[6].R32;
+	// team8.innerHTML = data[7].S32 + ' ' + data[7].R32;
+	// team9.innerHTML = data[8].S32 + ' ' + data[8].R32;
+	// team10.innerHTML = data[9].S32 + ' ' + data[9].R32;
+	// team11.innerHTML = data[10].S32 + ' ' + data[10].R32;
+	// team12.innerHTML = data[11].S32 + ' ' + data[11].R32;
+	// team13.innerHTML = data[12].S32 + ' ' + data[12].R32;
+	// team14.innerHTML = data[13].S32 + ' ' + data[13].R32;
+	// team15.innerHTML = data[14].S32 + ' ' + data[14].R32;
+	// team16.innerHTML = data[15].S32 + ' ' + data[15].R32;
+	// team17.innerHTML = data[16].S32 + ' ' + data[16].R32;
+	// team18.innerHTML = data[17].S32 + ' ' + data[17].R32;
+	// team19.innerHTML = data[18].S32 + ' ' + data[18].R32;
+	// team20.innerHTML = data[19].S32 + ' ' + data[19].R32;
+	// team21.innerHTML = data[20].S32 + ' ' + data[20].R32;
+	// team22.innerHTML = data[21].S32 + ' ' + data[21].R32;
+	// team23.innerHTML = data[22].S32 + ' ' + data[22].R32;
+	// team24.innerHTML = data[23].S32 + ' ' + data[23].R32;
+	// team25.innerHTML = data[24].S32 + ' ' + data[24].R32;
+	// team26.innerHTML = data[25].S32 + ' ' + data[25].R32;
+	// team27.innerHTML = data[26].S32 + ' ' + data[26].R32;
+	// team28.innerHTML = data[27].S32 + ' ' + data[27].R32;
+	// team29.innerHTML = data[28].S32 + ' ' + data[28].R32;
+	// team30.innerHTML = data[29].S32 + ' ' + data[29].R32;
+	// team31.innerHTML = data[30].S32 + ' ' + data[30].R32;
+	// team32.innerHTML = data[31].S32 + ' ' + data[31].R32;
 
 	//round16
-	team33.innerHTML = data[0].S16 + ' ' + data[0].R16;
-	team34.innerHTML = data[1].S16 + ' ' + data[1].R16;
-	team35.innerHTML = data[2].S16 + ' ' + data[2].R16;
-	team36.innerHTML = data[3].S16 + ' ' + data[3].R16;
-	team37.innerHTML = data[4].S16 + ' ' + data[4].R16;
-	team38.innerHTML = data[5].S16 + ' ' + data[5].R16;
-	team39.innerHTML = data[6].S16 + ' ' + data[6].R16;
-	team40.innerHTML = data[7].S16 + ' ' + data[7].R16;
-	team41.innerHTML = data[8].S16 + ' ' + data[8].R16;
-	team42.innerHTML = data[9].S16 + ' ' + data[9].R16;
-	team43.innerHTML = data[10].S16 + ' ' + data[10].R16;
-	team44.innerHTML = data[11].S16 + ' ' + data[11].R16;
-	team45.innerHTML = data[12].S16 + ' ' + data[12].R16;
-	team46.innerHTML = data[13].S16 + ' ' + data[13].R16;
-	team47.innerHTML = data[14].S16 + ' ' + data[14].R16;
-	team48.innerHTML = data[15].S16 + ' ' + data[15].R16;
+	// team33.innerHTML = data[0].S16 + ' ' + data[0].R16;
+	// team34.innerHTML = data[1].S16 + ' ' + data[1].R16;
+	// team35.innerHTML = data[2].S16 + ' ' + data[2].R16;
+	// team36.innerHTML = data[3].S16 + ' ' + data[3].R16;
+	// team37.innerHTML = data[4].S16 + ' ' + data[4].R16;
+	// team38.innerHTML = data[5].S16 + ' ' + data[5].R16;
+	// team39.innerHTML = data[6].S16 + ' ' + data[6].R16;
+	// team40.innerHTML = data[7].S16 + ' ' + data[7].R16;
+	// team41.innerHTML = data[8].S16 + ' ' + data[8].R16;
+	// team42.innerHTML = data[9].S16 + ' ' + data[9].R16;
+	// team43.innerHTML = data[10].S16 + ' ' + data[10].R16;
+	// team44.innerHTML = data[11].S16 + ' ' + data[11].R16;
+	// team45.innerHTML = data[12].S16 + ' ' + data[12].R16;
+	// team46.innerHTML = data[13].S16 + ' ' + data[13].R16;
+	// team47.innerHTML = data[14].S16 + ' ' + data[14].R16;
+	// team48.innerHTML = data[15].S16 + ' ' + data[15].R16;
 
 	//quater finals round of 8
 	team49.innerHTML = data[0].S8 + ' ' + data[0].R8;
@@ -175,18 +175,20 @@ const options = {
 
 Tabletop.init(options);
 
-nodecg.listenFor('mlbbplayoffshow', () => {
+nodecg.listenFor('d2playoffshow', () => {
 	Tabletop.init(options);
 
 	tl.from([ container ], { duration: 1, width: '50%', ease: 'back.out(1.7)' });
 	tl.to([ container ], 1, { opacity: 1 }, '-=1');
 });
 
-nodecg.listenFor('mlbbplayoffstop', () => {
+nodecg.listenFor('d2playoffstop', () => {
 	tl.to([ container ], { duration: 1, width: '50%', ease: 'back.in(1.7)' });
 	tl.to([ container ], 1, { opacity: 0 }, '-=1');
 
 	tl.call(() => {});
 
 	tl.set([ container ], { width: '' });
+
+	Tabletop.init(options);
 });

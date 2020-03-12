@@ -189,4 +189,6 @@ nodecg.listenFor('mlbbplayoffstop', () => {
 	tl.call(() => {});
 
 	tl.set([ container ], { width: '' });
+
+	Tabletop.init(options);
 });
