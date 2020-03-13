@@ -26,6 +26,20 @@
 				"width": 2,
 				"file": "d2groupstage.html",
 				"headerColor": "#a61d1d"
+			},
+			{
+				"name": "FifaResults",
+				"title": "FIFARESULTS",
+				"width": 2,
+				"file": "fifaresults.html",
+				"headerColor": "#858585"
+			},
+			{
+				"name": "PUGBRESULTS",
+				"title": "PUBGMRESULTS",
+				"width": 2,
+				"file": "pubgresults.html",
+				"headerColor": "#ff9e00"
 			}
 		],
 		"graphics": [
@@ -61,6 +75,16 @@
 			},
 			{
 				"file": "mlbbrule.html",
+				"width": 1920,
+				"height": 1080
+			},
+			{
+				"file": "fifagroup.html",
+				"width": 1920,
+				"height": 1080
+			},
+			{
+				"file": "pubggroup.html",
 				"width": 1920,
 				"height": 1080
 			}

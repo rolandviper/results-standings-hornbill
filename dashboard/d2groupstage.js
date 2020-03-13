@@ -14,9 +14,9 @@ function stopB() {
 }
 
 function playC() {
-	nodecg.sendMessage('d2ruleplay');
+	nodecg.sendMessage('ruled2play');
 }
 
-function playC() {
-	nodecg.sendMessage('d2rulestop');
+function stopC() {
+	nodecg.sendMessage('ruled2stop');
 }
