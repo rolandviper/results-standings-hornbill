@@ -21,3 +21,11 @@ function playC() {
 function stopC() {
 	nodecg.sendMessage('mlbbplayoffstop');
 }
+
+function playD() {
+	nodecg.sendMessage('mlbbruleplay');
+}
+
+function stopD() {
+	nodecg.sendMessage('mlbbrulestop');
+}

@@ -12,3 +12,11 @@ function playB() {
 function stopB() {
 	nodecg.sendMessage('d2playoffstop');
 }
+
+function playC() {
+	nodecg.sendMessage('d2ruleplay');
+}
+
+function playC() {
+	nodecg.sendMessage('d2rulestop');
+}

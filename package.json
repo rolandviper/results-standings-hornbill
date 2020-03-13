@@ -53,6 +53,16 @@
 				"file": "d2playoffing.html",
 				"width": 1920,
 				"height": 1080
+			},
+			{
+				"file": "d2rule.html",
+				"width": 1920,
+				"height": 1080
+			},
+			{
+				"file": "mlbbrule.html",
+				"width": 1920,
+				"height": 1080
 			}
 		]
 	},
