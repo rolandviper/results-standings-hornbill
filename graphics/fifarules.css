@@ -1,0 +1,99 @@
+body {
+	font-family: Staatliches, sans-serif !important;
+	background: transparent;
+}
+
+.base {
+	font-family: 'Raleway', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+
+	padding-left: 2vw;
+	padding-right: 2vw;
+
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+
+	letter-spacing: 2px;
+}
+
+.tophalf,
+.bottomhalf {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.round1,
+.round2 {
+	display: flex;
+	flex-direction: column;
+}
+
+.lower1,
+.lower2,
+.lower3 {
+	display: flex;
+	flex-direction: column;
+}
+
+.top,
+.bottom {
+	margin-left: 0.2vw;
+
+	padding-left: 0.5vw;
+}
+
+.bottom {
+	border-top: 1px solid white;
+	width: 10vw;
+}
+
+.round1 span.top,
+.lower1 span.top {
+	padding-top: 1vh;
+}
+
+.topW {
+	padding-left: 1vw;
+}
+
+.bottomW {
+	border-top: 1px solid white;
+	width: 10vw;
+	padding-left: 1vw;
+}
+
+.groupname {
+	font-family: Staatliches, sans-serif !important;
+	border-bottom: 1px solid white;
+	width: 20%;
+	color: #ffba00;
+	letter-spacing: 3px;
+}
+
+.groups {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: white;
+}
+
+.container {
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding-bottom: 5vh;
+
+	opacity: 0;
+}
+
+h1 {
+	text-align: center;
+	background-color: #ffba00;
+
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+}
