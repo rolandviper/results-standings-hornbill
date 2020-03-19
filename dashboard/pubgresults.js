@@ -14,9 +14,9 @@ function stopB() {
 }
 
 function playC() {
-	nodecg.sendMessage('pubgfifaplay');
+	nodecg.sendMessage('pubgruleplay');
 }
 
 function stopC() {
-	nodecg.sendMessage('pubgfifastop');
+	nodecg.sendMessage('pubgrulestop');
 }
